@@ -55,7 +55,6 @@ def main() -> None:
         user_input = input("Enter a command: ")
         command, *args = parse_input(user_input)
         
-
         if command in ["close", "exit"]:
             print("Good bye!")
             break
